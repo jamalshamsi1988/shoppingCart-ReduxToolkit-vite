@@ -1,0 +1,33 @@
+.siderbar{
+    width: 300px;
+    margin-right: 30px;
+    border: 2px dashed  rgb(21, 131, 131);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.siderbar div{
+    display: flex;
+    align-items: center;
+    color:  rgb(21, 131, 131);
+    margin-bottom: 15px;
+}
+.siderbar div svg{
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+.siderbar div span{
+    color: grey;
+    margin-left: 10px;
+}
+.siderbar button{
+    width: 100%;
+    margin-top: 40px;
+    background-color:  rgb(21, 131, 131);
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
